@@ -1,3 +1,26 @@
+# Any23-server-docker: extend Apache any23-server to use more shell scripts as handy tools around.
+
+# Build (locally first!)
+* Due Docker Hub not allowing free Container images hosting anymore, please build your local images first.
+```
+./build.sh
+or
+make build
+```
+
+# Run (recommended for easy-start)
+```
+./run.sh
+```
+
+# Quick commands
+* build.sh - build local image
+* logs.sh - see logs of container
+* run.sh - run the container
+* shell.sh - shell into the container
+* stop.sh - stop the container
+
+################################### Inherited from parent GIT ###################################
 # Any23 Web Server
 
 This is the root dir of the Any23 Web-Server module.
