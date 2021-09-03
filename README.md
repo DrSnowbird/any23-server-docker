@@ -12,7 +12,12 @@ make build
 ```
 ./run.sh
 ```
-
+The tomcat port is http://<host_name>:18880/ and you can change it by modifying, '.env' file:
+Please note the specially syntax "#" (only 1 at the beginning of the file is needed, only change the port number
+18880 to say, 188888. And, make sure you don't change other characters to break the 'run.sh' special parser.
+```
+#PORTS_LIST="18880:8080"
+```
 # Quick commands
 * build.sh - build local image
 * logs.sh - see logs of container
